@@ -64,10 +64,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\MazeGeneratorDemo\Scripts\GenerateMaze.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Maze.cs" />
     <Compile Include="Assets\Scripts\MazeCell.cs" />
+=======
+>>>>>>> 960f2da34babd9d72473ffc23f0c614f2fc736c3
     <Compile Include="Assets\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\VoxelAnimals\Assets\Scripts\PlayerController.cs" />
     <None Include="Assets\VoxelAnimals\Documentation\ReadMe.txt" />
     <Reference Include="Unity.Timeline.Editor">
@@ -303,6 +307,9 @@
     </Reference>
     <Reference Include="MazeGeneratorLib">
       <HintPath>D:/Uni/EIGE/GAME/survive-the-penguins/Assets/MazeGeneratorDemo/Scripts/MazeGeneratorLib.dll</HintPath>
+    </Reference>
+    <Reference Include="MazeGeneratorLib">
+      <HintPath>D:/survive-the-penguins/survive-the-penguins/Assets/MazeGeneratorDemo/Scripts/MazeGeneratorLib.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f3/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
