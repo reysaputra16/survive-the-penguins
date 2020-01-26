@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Gun.cs" />
     <Compile Include="Assets\MazeGeneratorDemo\Scripts\GenerateMaze.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Maze.cs" />
@@ -70,6 +71,8 @@
     <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\VoxelAnimals\Assets\Scripts\PlayerController.cs" />
+    <None Include="Assets\FreeMachineGun\Shader\BDCS.shader" />
+    <None Include="Assets\FreeMachineGun\documentation.txt" />
     <None Include="Assets\VoxelAnimals\Documentation\ReadMe.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/survive-the-penguins/survive-the-penguins/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
