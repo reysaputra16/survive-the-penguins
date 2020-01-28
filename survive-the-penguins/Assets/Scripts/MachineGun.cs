@@ -32,11 +32,9 @@ public class MachineGun : MonoBehaviour
             if (enemyTarget != null)
             {
                 enemyTarget.TakeDamage(damage);
+                GameObject impactGO = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
+                Destroy(impactGO, 2f);
             }
-
-            GameObject impactGO = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
-            Destroy(impactGO, 2f);
-
         }
     }
 }
