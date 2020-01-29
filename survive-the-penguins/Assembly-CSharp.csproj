@@ -66,10 +66,21 @@
     <Compile Include="Assets\Gun.cs" />
     <Compile Include="Assets\MazeGeneratorDemo\Scripts\GenerateMaze.cs" />
     <Compile Include="Assets\Scripts\EnemyTarget.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\FPSPlayer\DamagePlayer.cs" />
     <Compile Include="Assets\Scripts\FPSPlayer\MachineGun.cs" />
     <Compile Include="Assets\Scripts\FPSPlayer\MouseLook.cs" />
     <Compile Include="Assets\Scripts\FPSPlayer\PlayerMovement.cs" />
+=======
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\IntVector.cs" />
+    <Compile Include="Assets\Scripts\MachineGun.cs" />
+    <Compile Include="Assets\Scripts\MazeFull.cs" />
+    <Compile Include="Assets\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\PassageMaze.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\WallMaze.cs" />
+>>>>>>> parent of 002dea8... enemypenguin can chase and damage player
     <Compile Include="Assets\VoxelAnimals\Assets\Scripts\PlayerController.cs" />
     <None Include="Assets\FreeMachineGun\Shader\BDCS.shader" />
     <None Include="Assets\FreeMachineGun\documentation.txt" />

@@ -4,21 +4,16 @@ public class MachineGun : MonoBehaviour
 {
     public float damage = 10f;
     public float range = 100f;
-    public float fireRate = 10f;
-    public float impactForce = 100f;
 
     public Camera fpsCam;
     public ParticleSystem muzzleFlash;
     public GameObject impactEffect;
 
-    private float nextTimeToFire = 0f;
-
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
+        if (Input.GetButtonDown("Fire1"))
         {
-            nextTimeToFire = Time.time + 1f / fireRate;
             Shoot();
         }
         
@@ -43,7 +38,7 @@ public class MachineGun : MonoBehaviour
 
             if (hit.rigidbody != null)
             {
-                hit.rigidbody.AddForce(-hit.normal * impactForce);
+                hit.rigidbody.AddForce(-hit.normal);
             }
         }
     }
